@@ -1,5 +1,5 @@
 class Note:
-    def __init__(self, title, content):
-        self.id = str(len(title) + len(content))
+    def __init__(self, note_id, title, content):
+        self.id = note_id
         self.title = title
         self.content = content
